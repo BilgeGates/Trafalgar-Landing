@@ -201,7 +201,7 @@ main .services-footer {
   margin: 6rem 0 1rem;
 }
 
-main .services-footer button {
+main .button button {
   width: 12.5rem;
   height: 3.5rem;
   border-radius: 3.4rem;
@@ -210,4 +210,12 @@ main .services-footer button {
   color: var(--thirdh-color);
   background-color: var(--white-color);
   font-weight: 700;
+}
+
+main .custom-space {
+  margin-top: 7rem;
+}
+
+main .space {
+  margin-top: 2rem;
 }
