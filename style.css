@@ -15,9 +15,6 @@ html {
   --primary-color: #1f1534;
   --secondary-color: #7d7987;
   --thirdh-color: #458ff6;
-  --fourth--color: #;
-  --fifth-color: #1;
-  --sixth-color: #;
 }
 
 ul {
@@ -26,6 +23,10 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 nav {
@@ -105,4 +106,108 @@ main .trafalgar-footer button {
 main .trafalgar-img img {
   width: 43.3rem;
   height: 37.3rem;
+}
+
+main .services {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+main .service-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .services-title {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+main .service-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+main .line-img {
+  width: 3.5rem;
+}
+
+main .services-head {
+  width: 59.5rem;
+  margin: auto;
+  margin-top: 2rem;
+  line-height: 1.875;
+  color: var(--secondary-color);
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+main .services-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 70rem;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+main .service-box {
+  width: 21.875rem;
+  height: 22.125rem;
+  border-radius: 1.25rem;
+  z-index: 1;
+  background-color: var(--white-color);
+  padding: 3rem 0 1rem 2rem;
+  box-shadow: 1px 1px 3rem 2rem rgba(228, 226, 226, 0.2);
+}
+
+main .box-img img {
+  width: 5.7rem;
+  height: 5.6rem;
+}
+
+main .box-head {
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+main .box-body {
+  width: 16.625rem;
+  color: var(--secondary-color);
+  line-height: 1.75rem;
+}
+
+main .service-img {
+  gap: 30rem;
+  position: absolute;
+}
+
+main .service-img img {
+  z-index: -1;
+}
+
+main .services-footer {
+  margin: 6rem 0 1rem;
+}
+
+main .services-footer button {
+  width: 12.5rem;
+  height: 3.5rem;
+  border-radius: 3.4rem;
+  border: 1px solid var(--thirdh-color);
+  font-size: 1.125rem;
+  color: var(--thirdh-color);
+  background-color: var(--white-color);
+  font-weight: 700;
 }
