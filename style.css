@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --primary-color: #1f1534;
+  --secondary-color: #7d7987;
+  --thirdh-color: #458ff6;
+  --fourth--color: #;
+  --fifth-color: #1;
+  --sixth-color: #;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+  padding: 30px 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 2.5rem;
+}
+
+nav a {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+nav .active {
+  color: var(--primary-color);
+}
+
+nav a:focus {
+  color: var(--primary-color);
+}
+
+nav a:hover {
+  color: var(--primary-color);
+}
+
+main .trafalgar {
+  display: flex;
+  justify-content: center;
+  gap: 15rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+main .trafalgar-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 29rem;
+}
+
+main .trafalgar-head {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+main .trafalgar-body {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  margin-top: 2rem;
+  color: var(--secondary-color);
+}
+
+main .trafalgar-footer {
+  margin-top: 2rem;
+}
+
+main .trafalgar-footer button {
+  background-color: var(--thirdh-color);
+  width: 12.5rem;
+  height: 3.5rem;
+  border-radius: 3.4rem;
+  border: 1px solid var(--thirdh-color);
+  font-size: 1.125rem;
+  color: var(--white-color);
+  font-weight: 700;
+}
+
+main .trafalgar-img img {
+  width: 43.3rem;
+  height: 37.3rem;
+}
