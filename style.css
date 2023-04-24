@@ -1,3 +1,5 @@
+/*! All styles*/
+
 * {
   margin: 0;
   padding: 0;
@@ -32,6 +34,8 @@ button {
   cursor: pointer;
 }
 
+/*! Navbar styles */
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -63,6 +67,8 @@ nav a:focus {
 nav a:hover {
   color: var(--primary-color);
 }
+
+/*! Main styles */
 
 main .trafalgar {
   display: flex;
@@ -375,6 +381,8 @@ main .custom-services-button {
   margin-top: 3rem;
   text-align: center;
 }
+
+/*! Footer styles */
 
 footer {
   background: linear-gradient(
