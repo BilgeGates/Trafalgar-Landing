@@ -231,6 +231,7 @@ main .custom-button button {
 }
 
 main .note {
+  margin-top: 10em;
   background: linear-gradient(
     208.18deg,
     var(--fourth-color) 9.05%,
@@ -302,6 +303,69 @@ main .arrow-nav {
   display: flex;
   justify-content: center;
   margin-top: 3rem;
-  margin-bottom: 2rem;
   gap: 3rem;
+}
+
+main .article {
+  margin-top: 18rem;
+}
+
+main .services-custom-body {
+  display: flex;
+  gap: 2rem;
+  width: 66.5rem;
+  margin: auto;
+}
+
+main .custom-services {
+  margin-top: 5rem;
+}
+
+main .custom-services-box {
+  padding: 0;
+  height: 32rem;
+}
+
+main .custom-box-img {
+  width: 21.875rem;
+}
+
+main .custom-box-img img {
+  width: 21.875rem;
+  height: 15rem;
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
+}
+
+main .custom-box {
+  padding: 1rem 0 1rem 1rem;
+}
+
+main .custom-box-head,
+.custom-box-body {
+  width: 20rem;
+}
+
+main .service-box-head {
+  line-height: 2rem;
+  font-size: 1.5rem;
+}
+
+main .service-box-body {
+  font-size: 1.05rem;
+  line-height: 1.5rem;
+  margin-top: 2rem;
+}
+main .services-more {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-top: 2rem;
+}
+
+main .services-more a {
+  font-size: 1rem;
+  color: var(--thirdh-color);
+  line-height: 1.75rem;
+  font-weight: 700;
 }
