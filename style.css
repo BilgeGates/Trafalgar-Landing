@@ -19,7 +19,8 @@ html {
   --fifth-color: #5a98f2;
 }
 
-ul {
+ul,
+li {
   list-style: none;
 }
 
@@ -373,4 +374,54 @@ main .services-more a {
 main .custom-services-button {
   margin-top: 3rem;
   text-align: center;
+}
+
+footer {
+  background: linear-gradient(
+    183.41deg,
+    var(--fourth-color) -8.57%,
+    var(--fifth-color) 82.96%
+  );
+}
+
+footer div,
+a {
+  color: var(--white-color);
+}
+
+footer a {
+  margin-top: 2rem;
+  font-size: 1.125rem;
+  line-height: 2.3rem;
+}
+
+footer .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 6rem 7rem;
+  width: 85rem;
+  margin: auto;
+  margin-top: 10rem;
+}
+
+footer .trafalgar-footer {
+  width: 24rem;
+}
+
+footer .trafalgar-b-footer {
+  margin-top: 2rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+footer .trafalgar-f-footer {
+  margin-top: 2rem;
+}
+
+footer .company-h-footer {
+  font-size: 1.25rem;
+}
+
+footer .company-b-footer {
+  margin-top: 2rem;
 }
