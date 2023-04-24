@@ -15,6 +15,8 @@ html {
   --primary-color: #1f1534;
   --secondary-color: #7d7987;
   --thirdh-color: #458ff6;
+  --fourth-color: #67c3f3;
+  --fifth-color: #5a98f2;
 }
 
 ul {
@@ -149,7 +151,8 @@ main .services-head {
   text-align: center;
 }
 
-main .services-body {
+main .services-body,
+.note {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -218,4 +221,87 @@ main .custom-space {
 
 main .space {
   margin-top: 2rem;
+}
+
+main .custom-button button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+main .note {
+  background: linear-gradient(
+    208.18deg,
+    var(--fourth-color) 9.05%,
+    var(--fifth-color) 76.74%
+  );
+  border-radius: 1.5rem;
+  padding: 3rem 5rem;
+}
+
+main .element {
+  position: absolute;
+  right: 13%;
+  top: 219rem;
+}
+
+main .note-head {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--white-color);
+  text-align: center;
+}
+
+main .note-space {
+  margin-top: -1rem;
+}
+
+main .note-body {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+main .person {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+main .img-person img {
+  border-radius: 100%;
+  width: 12rem;
+  height: 12rem;
+  z-index: 1;
+}
+
+main .person-info {
+  width: 11.5rem;
+}
+
+main .person-title {
+  font-size: 1.375rem;
+  color: var(--white-color);
+}
+
+main .person-head {
+  font-size: 1.125rem;
+  color: var(--white-color);
+  line-height: 3rem;
+}
+
+main .person-note {
+  width: 26.25rem;
+  font-size: 1.1875rem;
+  color: var(--white-color);
+  line-height: 1.875rem;
+}
+
+main .arrow-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  gap: 3rem;
 }
