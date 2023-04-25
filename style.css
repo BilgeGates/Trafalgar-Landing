@@ -56,7 +56,11 @@ nav a {
   font-weight: bold;
 }
 
-nav .active {
+nav .menu-bars {
+  display: none;
+}
+
+.active {
   color: var(--primary-color);
 }
 
@@ -248,12 +252,6 @@ main .note {
   padding: 3rem 5rem;
 }
 
-main .element {
-  position: absolute;
-  right: 13%;
-  top: 219rem;
-}
-
 main .note-head {
   font-size: 2.25rem;
   font-weight: 700;
@@ -277,7 +275,7 @@ main .person {
   align-items: center;
 }
 
-main .img-person img {
+main .person-img img {
   border-radius: 100%;
   width: 12rem;
   height: 12rem;
@@ -432,4 +430,129 @@ footer .company-h-footer {
 
 footer .company-b-footer {
   margin-top: 2rem;
+}
+
+/*! Phone Screen */
+/*? Max-width: 425px; */
+
+@media only screen and (max-width: 425px) {
+  nav ul {
+    display: none;
+  }
+
+  nav .menu-bars {
+    display: block;
+  }
+
+  main .trafalgar {
+    margin-top: 5rem;
+    text-align: center;
+    flex-direction: column-reverse;
+  }
+
+  main .trafalgar-info {
+    width: 90%;
+    margin: auto;
+    margin-top: -10rem;
+  }
+
+  main .trafalgar-img,
+  .footer {
+    width: 90%;
+    margin: auto;
+  }
+
+  main .trafalgar-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  main .services {
+    width: 90%;
+    margin: auto;
+    margin-top: 10rem;
+  }
+
+  main .services-body {
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  main .services-head {
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+  }
+
+  main .services-footer {
+    margin-bottom: 10rem;
+  }
+
+  main .custom-t,
+  .note-body,
+  .person,
+  .footer {
+    flex-direction: column;
+  }
+
+  main .custom-d {
+    margin-top: 15rem;
+  }
+
+  main .custom-button {
+    margin: auto;
+    margin-top: 2rem;
+  }
+
+  main .note {
+    padding: 2rem 0;
+    width: 90%;
+    margin: auto;
+    margin-top: 8rem;
+  }
+
+  main .note-head,
+  .custom-services {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+
+  main .person-info {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+  }
+
+  main .person-note {
+    width: 85%;
+    margin: auto;
+  }
+
+  main .services-custom-body {
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+
+  footer .footer {
+    padding: 1rem 0 1rem 1rem;
+  }
+
+  footer .trafalgar-footer {
+    margin-top: 3rem;
+    text-align: center;
+  }
+
+  footer .company-footer {
+    margin: auto;
+    width: 80%;
+    margin-top: 5rem;
+  }
+
+  footer .company-h-footer {
+    margin-top: 4rem;
+  }
 }
