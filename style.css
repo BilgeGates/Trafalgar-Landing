@@ -181,7 +181,7 @@ main .service-box {
   z-index: 1;
   background-color: var(--white-color);
   padding: 3rem 0 1rem 2rem;
-  box-shadow: 1px 1px 3rem 2rem rgba(228, 226, 226, 0.2);
+  box-shadow: 1px 1px 3rem 1.5rem rgba(228, 226, 226, 0.2);
 }
 
 main .box-img img {
@@ -436,6 +436,11 @@ footer .company-b-footer {
 /*? Max-width: 425px; */
 
 @media only screen and (max-width: 425px) {
+  nav {
+    width: 90%;
+    margin: auto;
+  }
+
   nav ul {
     display: none;
   }
@@ -473,16 +478,178 @@ footer .company-b-footer {
     margin-top: 10rem;
   }
 
-  main .services-body {
+  main .services-head {
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+  }
+
+  main .service-img {
     width: 90%;
     margin: auto;
     flex-direction: column;
+  }
+
+  main .bg-trafalgar {
+    width: 40%;
+  }
+
+  main .services-body {
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+
+  main .services-box {
+    width: 90%;
+    margin: auto;
+  }
+
+  main .services-footer {
+    margin-bottom: 10rem;
+  }
+
+  main .custom-t,
+  .note-body,
+  .person,
+  .footer {
+    flex-direction: column;
+  }
+
+  main .custom-d {
+    margin-top: 15rem;
+  }
+
+  main .custom-button {
+    margin: auto;
+    margin-top: 2rem;
+  }
+
+  main .note {
+    padding: 2rem 0;
+    width: 90%;
+    margin: auto;
+    margin-top: 8rem;
+  }
+
+  main .note-head,
+  .custom-services {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+
+  main .person-info {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+  }
+
+  main .person-note {
+    width: 85%;
+    margin: auto;
+  }
+
+  main .services-custom-body {
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+
+  footer .footer {
+    padding: 1rem 0 1rem 1rem;
+  }
+
+  footer .trafalgar-footer {
+    margin-top: 3rem;
+    text-align: center;
+  }
+
+  footer .company-footer {
+    margin: auto;
+    width: 80%;
+    margin-top: 5rem;
+  }
+
+  footer .company-h-footer {
+    margin-top: 4rem;
+  }
+}
+
+/*! Tablet Screen */
+/*? Max-width: 768px; */
+
+@media only screen and (max-width: 768px) {
+  nav {
+    width: 90%;
+    margin: auto;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav .menu-bars {
+    display: block;
+  }
+
+  main .trafalgar {
+    margin-top: 5rem;
+    text-align: center;
+    flex-direction: column-reverse;
+  }
+
+  main .trafalgar-info {
+    width: 90%;
+    margin: auto;
+    margin-top: -10rem;
+  }
+
+  main .trafalgar-img,
+  .footer {
+    width: 90%;
+    margin: auto;
+  }
+
+  main .trafalgar-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  main .services {
+    width: 90%;
+    margin: auto;
+    margin-top: 10rem;
   }
 
   main .services-head {
     width: 90%;
     margin: auto;
     margin-top: 2rem;
+  }
+
+  main .service-img {
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  main .bg-trafalgar {
+    width: 40%;
+  }
+
+  main .services-body {
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+
+  main .services-box {
+    width: 90%;
+    margin: auto;
   }
 
   main .services-footer {
