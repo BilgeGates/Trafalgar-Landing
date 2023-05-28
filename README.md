@@ -9,7 +9,7 @@
 
 ### Tablet Screen
 
-<img align="left" src="https://user-images.githubusercontent.com/126269066/234545388-dcc55950-2914-41d3-a8a0-7005f17d9f84.jpg"
+<img align="left" src="https://user-images.githubusercontent.com/126269066/234545388-dcc55950-2914-41d3-a8a0-7005f17d9f84.jpg">
 
 ### Phone Screen
 
