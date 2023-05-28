@@ -1,10 +1,7 @@
 # Trafalgar-Landing
 
-## Project the About
 
-### The Trafalgar Landing project has short articles on medicines, medical advice and a number of surgeries.
-
-## View of the Proyekt
+## View of the Projekt
 
 ### Laptop Screen
 
@@ -12,8 +9,19 @@
 
 ### Tablet Screen
 
-![Trafalgar_Tablet](https://user-images.githubusercontent.com/126269066/234545388-dcc55950-2914-41d3-a8a0-7005f17d9f84.jpg)
+<img align="left" src="https://user-images.githubusercontent.com/126269066/234545388-dcc55950-2914-41d3-a8a0-7005f17d9f84.jpg"
 
 ### Phone Screen
 
-![Trafalgar_Phone](https://user-images.githubusercontent.com/126269066/234545513-cd28c7bc-9d59-4f6d-ae8e-8e3f11b0d0d7.jpg)
+<img align="right" src="https://user-images.githubusercontent.com/126269066/234545513-cd28c7bc-9d59-4f6d-ae8e-8e3f11b0d0d7.jpg">
+
+
+ ###  Hello, this project is created using HTML and CSS.  
+
+## Setup Project  
+
+### You need to download this project your to local machine using this command or you can download zip file. 
+
+     git clone https://github.com/BilgeGates/Trafic-Light.git  
+
+## Haven a nice day!
