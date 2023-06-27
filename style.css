@@ -11,6 +11,10 @@ html {
   font-family: sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 :root {
   --white-color: #fff;
   --black-color: #000;
@@ -78,6 +82,7 @@ main .trafalgar {
   display: flex;
   justify-content: center;
   gap: 15rem;
+  width: 90%;
   margin: auto;
   margin-top: 2rem;
 }
@@ -122,17 +127,13 @@ main .trafalgar-img img {
 }
 
 main .services {
+  width: 90%;
+  margin: auto;
   display: flex;
   justify-items: center;
   align-items: center;
   flex-direction: column;
   margin-top: 5rem;
-}
-
-main .service-img {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 main .services-title {
@@ -169,7 +170,7 @@ main .services-body,
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
-  width: 70rem;
+  width: 95%;
   margin: auto;
   margin-top: 5rem;
 }
@@ -200,15 +201,6 @@ main .box-body {
   width: 16.625rem;
   color: var(--secondary-color);
   line-height: 1.75rem;
-}
-
-main .service-img {
-  gap: 30rem;
-  position: absolute;
-}
-
-main .service-img img {
-  z-index: -1;
 }
 
 main .services-footer {
@@ -484,12 +476,6 @@ footer .company-b-footer {
     margin-top: 2rem;
   }
 
-  main .service-img {
-    width: 90%;
-    margin: auto;
-    flex-direction: column;
-  }
-
   main .bg-trafalgar {
     width: 40%;
   }
@@ -628,12 +614,6 @@ footer .company-b-footer {
     width: 90%;
     margin: auto;
     margin-top: 2rem;
-  }
-
-  main .service-img {
-    width: 90%;
-    margin: auto;
-    flex-direction: column;
   }
 
   main .bg-trafalgar {
