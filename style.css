@@ -307,7 +307,7 @@ header {
   position: relative;
 }
 
-.testimonials__container .testimonialsBox {
+.testimonialsBox {
   background: linear-gradient(
     208deg,
     var(--color-fourth) 9%,
@@ -318,7 +318,7 @@ header {
   transition: var(--transition);
 }
 
-.testimonials__container .testimonialsBox:hover {
+.testimonialsBox:hover {
   box-shadow: 0.6rem 0.5rem 0.4rem rgba(0, 0, 0, 0.2);
 }
 
