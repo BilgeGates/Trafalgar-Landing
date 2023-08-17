@@ -315,6 +315,11 @@ header {
   );
   border-radius: 1.5rem;
   overflow: hidden;
+  transition: var(--transition);
+}
+
+.testimonials__container .testimonialsBox:hover {
+  box-shadow: 0.6rem 0.5rem 0.4rem rgba(0, 0, 0, 0.2);
 }
 
 .testimonialsBox h2 {
@@ -359,6 +364,11 @@ header {
   width: 8rem;
   height: 8rem;
   overflow: hidden;
+}
+
+span.swiper-pagination-bullet {
+  background: var(--color-thirdh);
+  padding: 4px;
 }
 
 /*  ========================= ARTICLE ========================= */
