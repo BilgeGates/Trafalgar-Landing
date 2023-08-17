@@ -9,6 +9,7 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
 :root {
   --color-bg: #e8e8e0;
   --color-white: #fff;
@@ -300,6 +301,66 @@ header {
   margin: 1rem 0 2.4rem;
 }
 
+/*  ========================= TESTIMONIAL ========================= */
+
+.testimonials__container {
+  position: relative;
+}
+
+.testimonials__container .testimonialsBox {
+  background: linear-gradient(
+    208deg,
+    var(--color-fourth) 9%,
+    var(--color-fifth) 76%
+  );
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.testimonialsBox h2 {
+  text-align: center;
+  padding: 2rem 0 0;
+  color: var(--color-white);
+}
+
+.testimonials {
+  padding: 3rem;
+}
+
+.testimonials .swiper-slide {
+  display: grid;
+  grid-template-columns: 50% 30%;
+  gap: 2rem;
+  place-items: center;
+}
+
+.testimonial__person {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.testimonial__person h4 {
+  color: var(--color-white);
+}
+
+.testimonial__person small {
+  color: var(--color-white);
+  font-size: 0.85rem;
+}
+
+.testimonials figcaption p {
+  color: var(--color-white);
+}
+
+.testimonials .avatar {
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  width: 8rem;
+  height: 8rem;
+  overflow: hidden;
+}
+
 /*  ========================= ARTICLE ========================= */
 
 .article__container {
@@ -357,6 +418,7 @@ footer {
   );
   padding: 5rem 0;
   font-size: 0.9rem;
+  margin-top: 5rem;
 }
 
 .footer__container .footer__logo h4 {
@@ -448,10 +510,11 @@ footer ul li a:hover {
     top: 5rem;
     right: 5%;
     height: fit-content;
-    width: 18rem;
+    width: 12rem;
     flex-direction: column;
     gap: 0;
     display: none;
+    z-index: 10;
   }
 
   .nav__menu li {
@@ -598,6 +661,29 @@ footer ul li a:hover {
     margin: 0 auto;
   }
 
+  /* ================================ TESTIMONIALS ================================  */
+
+  .testimonials {
+    padding: 0 0 1rem 0;
+  }
+
+  .testimonials .swiper-slide {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial__person {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  .testimonials figcaption p {
+    text-align: center;
+    width: 90%;
+    margin-inline: auto;
+  }
+
   /* ================================ FOOTER ================================  */
 
   .footer__container {
@@ -607,7 +693,7 @@ footer ul li a:hover {
   }
 
   .footer__1 p {
-    margin: 1rem 0;
+    margin: 0.5rem 0;
   }
 }
 

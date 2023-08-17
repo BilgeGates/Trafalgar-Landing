@@ -12,6 +12,11 @@
     />
     <!-- STYLE CSS -->
     <link rel="stylesheet" href="style.css" />
+    <!-- SWIPR JS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <title>Trafalgar Landing Page</title>
   </head>
   <body>
@@ -23,6 +28,7 @@
         <ul class="nav__menu">
           <li><a href="#">Home</a></li>
           <li><a href="#service">Find a doctor</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
           <li><a href="#app">Apps</a></li>
           <li><a href="#article">About us</a></li>
         </ul>
@@ -174,6 +180,109 @@
 
     <!-- ========================= END OF APP ========================= -->
 
+    <section class="container testimonials__container" id="testimonials">
+      <div>
+        <div class="swiper testimonialsBox">
+          <h2>What our customer are saying</h2>
+          <div class="testimonials swiper-wrapper">
+            <figure class="swiper-slide">
+              <div class="testimonial__person">
+                <div class="avatar">
+                  <img src="img/avatar1.jpg" />
+                </div>
+                <div class="testimonial__info">
+                  <h4>Edward Newgate</h4>
+                  <small>Founder Circle</small>
+                </div>
+              </div>
+              <figcaption>
+                <p>
+                  “Our dedicated patient engagement app and web portal allow you
+                  to access information instantaneously (no tedeous form, long
+                  calls, or administrative hassle) and securely”
+                </p>
+              </figcaption>
+            </figure>
+            <figure class="swiper-slide">
+              <div class="testimonial__person">
+                <div class="avatar">
+                  <img src="img/avatar2.jpg" />
+                </div>
+                <div class="testimonial__info">
+                  <h4>Edward Newgate</h4>
+                  <small>Founder Circle</small>
+                </div>
+              </div>
+              <figcaption>
+                <p>
+                  “Our dedicated patient engagement app and web portal allow you
+                  to access information instantaneously (no tedeous form, long
+                  calls, or administrative hassle) and securely”
+                </p>
+              </figcaption>
+            </figure>
+            <figure class="swiper-slide">
+              <div class="testimonial__person">
+                <div class="avatar">
+                  <img src="img/avatar3.jpg" />
+                </div>
+                <div class="testimonial__info">
+                  <h4>Edward Newgate</h4>
+                  <small>Founder Circle</small>
+                </div>
+              </div>
+              <figcaption>
+                <p>
+                  “Our dedicated patient engagement app and web portal allow you
+                  to access information instantaneously (no tedeous form, long
+                  calls, or administrative hassle) and securely”
+                </p>
+              </figcaption>
+            </figure>
+            <figure class="swiper-slide">
+              <div class="testimonial__person">
+                <div class="avatar">
+                  <img src="img/avatar4.jpg" />
+                </div>
+                <div class="testimonial__info">
+                  <h4>Edward Newgate</h4>
+                  <small>Founder Circle</small>
+                </div>
+              </div>
+              <figcaption>
+                <p>
+                  “Our dedicated patient engagement app and web portal allow you
+                  to access information instantaneously (no tedeous form, long
+                  calls, or administrative hassle) and securely”
+                </p>
+              </figcaption>
+            </figure>
+            <figure class="swiper-slide">
+              <div class="testimonial__person">
+                <div class="avatar">
+                  <img src="img/avatar5.jpg" />
+                </div>
+                <div class="testimonial__info">
+                  <h4>Edward Newgate</h4>
+                  <small>Founder Circle</small>
+                </div>
+              </div>
+              <figcaption>
+                <p>
+                  “Our dedicated patient engagement app and web portal allow you
+                  to access information instantaneously (no tedeous form, long
+                  calls, or administrative hassle) and securely”
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- ========================= END OF TESTIMONIALS ========================= -->
+
     <section class="article" id="article">
       <h2>Check out our latest article</h2>
       <div class="container article__container">
@@ -218,7 +327,7 @@
       </div>
     </section>
 
-    <!-- ========================= END OF ARTICLE ========================= -->
+    <!-- ========================= END OF ARTICE ========================= -->
 
     <footer>
       <div class="container footer__container">
@@ -266,6 +375,7 @@
 
     <!-- ==============================  SCRIPT == ============================ -->
 
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>

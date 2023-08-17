@@ -28,3 +28,12 @@ if (window.innerWidth < 768) {
     item.addEventListener("click", closeNavHandler);
   });
 }
+
+// testimonial section
+
+const swiper = new Swiper(".swiper", {
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
