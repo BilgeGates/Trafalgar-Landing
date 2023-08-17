@@ -7,7 +7,6 @@
 <br />
 <h2>🍿 About</h3>
 <h4>Trafalga is a health-focused landing page for people seeking personal care.</h4>
-<hr />
 <h2>🍿 Technologies</h3>
 <ul>
 <li>HTML</li>
