@@ -5,11 +5,10 @@
   <a href="#build">Build</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 <br />
-<h3>About</h3>
+<h3>🍿 About</h3>
 <h4>Trafalga is a health-focused landing page for people seeking personal care.</h4>
 <hr />
-<br />
-<h3>Technologies</h3>
+<h3>🍿 Technologies</h3>
 <ul>
 <li>HTML</li>
 <li>CSS</Li>
