@@ -3,13 +3,13 @@
 <table>
   <tr>
     <td>
-      <img src="./img/project__image/../Trafalgar.jpg" width="300">
+      <img src="./img/project__image/Trafalgar.jpg" width="300">
     </td>
     <td>
-      <img src="./img/project__image/../Trafalgar_Tablet.jpg" width="300">
+      <img src="./img/project__image/Trafalgar_Tablet.jpg" width="300">
     </td>
     <td>
-      <img src="./img/project__image/../Trafalgar_Phone.jpg" width="300">
+      <img src="./img/project__image/Trafalgar_Phone.jpg" width="300">
     </td>
   </tr>
 </table><br />
