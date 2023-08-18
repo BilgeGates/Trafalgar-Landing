@@ -10,10 +10,10 @@
    <li>Appointment options</li>
    <li>health related articles</li>
    <li>Full Responsive</li>
-   <li>Google Fonts was uses</li>
+   <li>Google Fonts was used</li>
    <li>FontAwesome was used</li>
    <li>Swiper Js was used</li>
-</ul>
+</ul><hr />
 <h2>🍿 Technologies</h3>
 <ul>
    <li>HTML</li>
