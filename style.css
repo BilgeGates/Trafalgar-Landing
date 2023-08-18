@@ -613,6 +613,11 @@ footer ul li a:hover {
     width: var(--container-width-sm);
   }
 
+  .btn,
+  .btn-primary {
+    font-size: 0.85rem;
+  }
+
   /* ================================ HEADER ================================  */
 
   header {
