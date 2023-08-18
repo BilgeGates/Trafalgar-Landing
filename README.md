@@ -8,7 +8,7 @@
    <li>Health service</li>
    <li>Specialist doctor qualifications</Li>
    <li>Appointment options</li>
-   <li>HGalth related articles</li>
+   <li>Health related articles</li>
    <li>Full Responsive</li>
 </ul><hr />
 <h2>🍿 Technologies </h2>
