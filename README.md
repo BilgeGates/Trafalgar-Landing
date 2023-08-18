@@ -25,7 +25,6 @@
 <h3> Step 1: Download and Extract the Code </h3>
 <p>First, download the entire website code and extract the ZIP file to a folder on your local system.</p>
 <h4>Website Code: https://github.com/BilgeGates/Trafalgar-Landing.git</h4>
-<hr />
 <h3>Step 3: Launch the website </h3>
 <p>You can run it by going to the folder where your code is, and clicking on the index.html file, or you can open it in your code editor and run it in `Live Server`</p>
 <hr />
