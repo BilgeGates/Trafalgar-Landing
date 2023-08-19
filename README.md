@@ -5,10 +5,6 @@
 <hr />
 <h2>🍿 Features </h2>
 <ul>   
-   <li>Health service</li>
-   <li>Specialist doctor qualifications</Li>
-   <li>Appointment options</li>
-   <li>Health related articles</li>
    <li>Responsive</li>
 </ul><hr />
 <h2>🍿 Technologies </h2>
@@ -16,8 +12,6 @@
    <li>HTML</li>
    <li>CSS</Li>
    <li>JavaScript</li>   
-   <li>Google Fonts was used</li>
-   <li>FontAwesome Icons</li>
    <li>SwiperJs</li>
 </ul>
 <hr />
@@ -25,7 +19,7 @@
 <h3> Step 1: Download and Extract the Code </h3>
 <p>First, download the entire website code and extract the ZIP file to a folder on your local system.</p>
 <h4>Website Code: https://github.com/BilgeGates/Trafalgar-Landing.git</h4>
-<h3>Step 3: Launch the website </h3>
+<h3>Step 2: Launch the website </h3>
 <p>You can run it by going to the folder where your code is, and clicking on the index.html file, or you can open it in your code editor and run it in `Live Server`</p>
 <hr />
 <h2>🍿 Demo </h2>
