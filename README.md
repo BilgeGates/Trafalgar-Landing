@@ -9,7 +9,7 @@
    <li>Specialist doctor qualifications</Li>
    <li>Appointment options</li>
    <li>Health related articles</li>
-   <li>Full Responsive</li>
+   <li>Responsive</li>
 </ul><hr />
 <h2>🍿 Technologies </h2>
 <ul>
