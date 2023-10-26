@@ -183,12 +183,12 @@ nav button {
 
 .nav__menu a {
   font-size: 0.9rem;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   transition: var(--transition);
 }
 
 .nav__menu a:hover {
-  color: var(--color-primary);
+  color: var(--color-fifth);
 }
 
 /*  ========================= HEADER ========================= */
