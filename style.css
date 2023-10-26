@@ -183,12 +183,12 @@ nav button {
 
 .nav__menu a {
   font-size: 0.9rem;
-  color: var(--color-thirdh);
+  color: var(--color-secondary);
   transition: var(--transition);
 }
 
 .nav__menu a:hover {
-  color: var(--color-fifth);
+  color: var(--color-primary);
 }
 
 /*  ========================= HEADER ========================= */
@@ -562,7 +562,7 @@ footer ul li a:hover {
   }
 
   .nav__menu li a {
-    background: var(--color-primary);
+    background: var(--color-thirdh);
     color: var(--color-white);
     box-shadow: -4rem 5rem 10rem rgba(0, 0, 0, 0.5);
     width: 100%;
@@ -572,7 +572,7 @@ footer ul li a:hover {
   }
 
   .nav__menu li a:hover {
-    background: var(--color-thirdh);
+    background: var(--color-fourth);
     color: var(--color-white);
   }
 
