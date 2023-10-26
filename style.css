@@ -183,7 +183,7 @@ nav button {
 
 .nav__menu a {
   font-size: 0.9rem;
-  color: var(--color-primary);
+  color: var(--color-thirdh);
   transition: var(--transition);
 }
 
