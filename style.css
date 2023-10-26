@@ -572,7 +572,7 @@ footer ul li a:hover {
   }
 
   .nav__menu li a:hover {
-    background: var(--color-fourth);
+    background: var(--color-fifth);
     color: var(--color-white);
   }
 
